@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>完整计算器</title> 
+	<link rel="shortcut icon" href="images/Calculator.ico" type="image/x-icon">
+	<link rel="stylesheet" href="style.css" />
+	<script src="index.js"></script>
+</head> 
+<body> 
+    <!--计算器框架-->
+	<div id="calculator"> 
+		<!--计算器标题-->
+		<div id="calcu-head">
+			<h1>完整计算器</h1>
+		</div> 
+		<!--计算器的输入面板-->
+		<form name="calculator" action="" method="get"> 
+			<!--计算器的显示窗-->
+			<div id="calcu-screen"> 
+				<input class="screen" type="text" name="numScreen"  value="0" onfocus="this.blur();" /> 
+			</div>
+			<!--计算器的键盘--> 
+			<div id="calcu-btn"> 
+				<ul>
+					<li onclick="square()">X<sup>2</sup></li>
+					<li onclick=" cube()">X<sup>3</sup></li>  
+					<li onclick="command(7)">7</li> 
+					<li onclick="command(8)">8</li> 
+					<li onclick="command(9)">9</li> 
+					<li class="tool" onclick="del()">←</li> 
+					<li class="tool" onclick="clearscreen()">C</li>
+					<li onclick="sqrt()">√X</li> 
+					<li onclick="cubeRoot()"><sup>3</sup>√X</li>
+					<li onclick="command(4)">4</li> 
+					<li onclick="command(5)">5</li> 
+					<li onclick="command(6)">6</li> 
+					<li class="tool" onclick="times()">×</li> 
+					<li class="tool" onclick="divide()">÷</li>
+					<li onclick="sin()">sin</li> 
+					<li onclick="cos()">cos</li> 
+					<li onclick="command(1)">1</li> 
+					<li onclick="command(2)">2</li> 
+					<li onclick="command(3)">3</li> 
+					<li class="tool" onclick="plus()">+</li> 
+					<li class="tool" onclick="minus()">-</li>
+					<li onclick="tan()">tan</li> 
+					<li onclick="log()">log</li> 
+					<li onclick="command(0)">0</li> 
+					<li onclick="dzero()">00</li> 
+					<li onclick="dot()">.</li> 
+					<li class="tool" onclick="persent()">%</li> 
+					<li class="tool" onclick="equal()">=</li> 
+				</ul> 
+			</div> 
+			<!--计算器的底部说明-->
+			<div id="calcu-foot"> 
+				<span class="welcome">欢迎使用javascript计算器！</span> 
+			</div> 
+		</form> 
+	</div> 
+</body> 
+</html> 

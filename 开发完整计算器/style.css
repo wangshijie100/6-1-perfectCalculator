@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body { 
+	font-size:12px; 
+	font-family:Arial; 
+	color:#555; 
+	text-align:center; 
+	background-color:#e2e2e2; 
+} 
+#calculator{ 
+	width:450px; 
+	height:370px; 
+	overflow:hidden;  
+	border:#fff 1px solid; 
+	padding-bottom:10px; 
+	background-color:#f2f2f2; 
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin:-185px 0 0 -165px;
+}
+#calculator #calcu-head{ 
+	text-align:left; 
+	padding:10px 15px 5px; 
+}
+#calculator #calcu-head h1{ 
+	font-size:18px; 
+	text-align: center;
+} 
+#calculator div{ 
+	clear:both; 
+} 
+#calculator form #calcu-screen .screen{ 
+	width:410px; 
+	height:24px; 
+	line-height:24px; 
+	padding:4px; 
+	border:#e6e6e6 1px solid; 
+	border-bottom:#f2f2f2 1px solid; 
+	border-right:#f2f2f2 1px solid; 
+	margin:10px auto; 
+	direction:ltr; 
+	text-align:right; 
+	font-size:16px; 
+	color:#999; 
+} 
+#calculator form #calcu-btn ul{ 
+	padding:0; 
+	margin:5px 14px; 
+	border:#fff 1px solid; 
+	height:auto; 
+	overflow:hidden; 
+} 
+#calculator form #calcu-btn ul li{ 
+	list-style:none; 
+	float:left; 
+	width:50px; 
+	height:50px; 
+	margin:5px; 
+	display:inline; 
+	line-height:50px; 
+	font-size:18px; 
+	background-color:#FF9999; 
+} 
+#calculator form #calcu-btn ul li.tool{ 
+	background-color:#FFCC99; 
+} 
+#calculator form #calcu-btn ul li:hover{ 
+	background-color:#FFCCCC; 
+	cursor:pointer; 
+} 
+#calculator form #calcu-btn ul li.tool:hover{ 
+	background-color:#FFFFCC; 
+	cursor:pointer; 
+} 
+#calculator form #calcu-btn ul li:active{ 
+	background-color:#fc0; 
+	cursor:pointer; 
+} 
+#calculator form #calcu-btn ul li.tool:active{ 
+	background-color:#d8e8ff; 
+	cursor:pointer; 
+} 
+#calculator form #calcu-foot{ 
+	text-align:left; 
+	padding:10px 15px 5px; 
+	height:auto; 
+	overflow:hidden; 
+} 
+#calculator form span.welcome{ 
+	clear:both; 
+	color:#999; 
+} 
+#calculator form span.welcome a{ 
+	float:right; 
+	color:#999; 
+}
